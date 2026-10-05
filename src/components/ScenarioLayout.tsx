@@ -24,6 +24,9 @@ export function ScenarioLayout({ scenario }: { scenario: Scenario }) {
     <>
       <SiteHeader />
       <main id="main" className="page">
+        <Link to="/" className="back-link" data-testid="back-to-index">
+          <span aria-hidden="true">← </span>Back to all scenarios
+        </Link>
         <p className="eyebrow">{CATEGORY_TITLES[scenario.category]}</p>
         <h1>{scenario.title}</h1>
         <p>{scenario.description}</p>

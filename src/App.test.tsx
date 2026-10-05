@@ -15,3 +15,10 @@ test('index links to both variants of every scenario', () => {
     expect(screen.getByTestId(`link-${s.id}-broken`)).toHaveAttribute('href', `#${s.path}?variant=broken`);
   }
 });
+
+test('scenario pages link back to the index', () => {
+  window.location.hash = `#${SCENARIOS[0].path}`;
+  render(<App />);
+  expect(screen.getByTestId('back-to-index')).toHaveAttribute('href', '#/');
+  window.location.hash = '';
+});
