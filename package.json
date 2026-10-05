@@ -1,7 +1,7 @@
 {
   "name": "nvda_dynamic_testing_webpage",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://mlorang.github.io/nvda-dynamic-testing-webpage",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
@@ -26,6 +26,8 @@
     "prebuild": "npm run manifest",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
