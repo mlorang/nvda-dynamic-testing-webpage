@@ -60,6 +60,12 @@ a {
   padding: 1.5rem 1rem 4rem;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
 .eyebrow {
   margin: 0;
   color: var(--muted);
