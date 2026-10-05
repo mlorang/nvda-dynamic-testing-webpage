@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "NVDA tests",
+  "name": "NVDA dynamic component test page",
   "icons": [
     {
       "src": "favicon.ico",

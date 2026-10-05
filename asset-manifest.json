@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/nvda-dynamic-testing-webpage/static/css/main.f855e6bc.css",
-    "main.js": "/nvda-dynamic-testing-webpage/static/js/main.8e09bd22.js",
+    "main.css": "/nvda-dynamic-testing-webpage/static/css/main.3c890644.css",
+    "main.js": "/nvda-dynamic-testing-webpage/static/js/main.24da989e.js",
     "static/js/453.968534d8.chunk.js": "/nvda-dynamic-testing-webpage/static/js/453.968534d8.chunk.js",
-    "static/media/logo.svg": "/nvda-dynamic-testing-webpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nvda-dynamic-testing-webpage/index.html",
-    "main.f855e6bc.css.map": "/nvda-dynamic-testing-webpage/static/css/main.f855e6bc.css.map",
-    "main.8e09bd22.js.map": "/nvda-dynamic-testing-webpage/static/js/main.8e09bd22.js.map",
+    "main.3c890644.css.map": "/nvda-dynamic-testing-webpage/static/css/main.3c890644.css.map",
+    "main.24da989e.js.map": "/nvda-dynamic-testing-webpage/static/js/main.24da989e.js.map",
     "453.968534d8.chunk.js.map": "/nvda-dynamic-testing-webpage/static/js/453.968534d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.8e09bd22.js"
+    "static/css/main.3c890644.css",
+    "static/js/main.24da989e.js"
   ]
 }
