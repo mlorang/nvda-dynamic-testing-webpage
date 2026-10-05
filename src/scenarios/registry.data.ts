@@ -52,7 +52,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'live-polite',
     path: '/live/polite',
-    title: 'Polite status message',
+    title: 'Polite status message (4.1.3)',
     category: 'live',
     description: 'Adding an item to the cart updates a status message after a delay.',
     flaw: 'The status text changes inside a plain div with no live region.',
@@ -67,7 +67,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'live-alert',
     path: '/live/alert',
-    title: 'Assertive error alert',
+    title: 'Assertive error alert (3.3.1, 3.3.3)',
     category: 'live',
     description: 'Saving fails and an error message appears.',
     flaw: 'The error container has aria-live="off", so the error is visual only.',
@@ -85,7 +85,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'live-toast',
     path: '/live/toast',
-    title: 'Auto-dismissing toast',
+    title: 'Auto-dismissing toast (4.1.3)',
     category: 'live',
     description: 'Sending a message shows a toast that disappears after a few seconds.',
     flaw: 'The live region is mounted together with its content, which screen readers often miss.',
@@ -100,7 +100,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'live-loading',
     path: '/live/loading',
-    title: 'Loading indicator',
+    title: 'Loading indicator (4.1.3)',
     category: 'live',
     description: 'Loading search results shows a spinner, then the results.',
     flaw: 'The spinner is an unlabeled image and no loading or completion text is announced.',
@@ -121,7 +121,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'disclosure-accordion',
     path: '/disclosure/accordion',
-    title: 'Accordion',
+    title: 'Accordion (2.1.1, 4.1.2)',
     category: 'disclosure',
     description: 'Three FAQ sections that expand and collapse.',
     flaw: 'Headers are clickable divs: no button role, not focusable, no expanded state.',
@@ -133,7 +133,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'disclosure-dialog',
     path: '/disclosure/dialog',
-    title: 'Modal dialog',
+    title: 'Modal dialog (4.1.2, 2.4.3, 2.1.1)',
     category: 'disclosure',
     description: 'A button opens a settings dialog with a form.',
     flaw: 'The dialog has no accessible name, no aria-modal, and no focus management or Escape key.',
@@ -145,7 +145,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'disclosure-tabs',
     path: '/disclosure/tabs',
-    title: 'Tabs',
+    title: 'Tabs (4.1.2, 2.1.1, 1.3.1, 2.4.7)',
     category: 'disclosure',
     description: 'Three tabs switch between account panels.',
     flaw: 'Tabs are not in a tablist, have no selected state, and are not keyboard operable.',
@@ -157,7 +157,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'disclosure-menu',
     path: '/disclosure/menu',
-    title: 'Menu button',
+    title: 'Menu button (4.1.2, 2.1.1, 1.3.1)',
     category: 'disclosure',
     description: 'An actions button opens a menu of commands.',
     flaw: 'The icon-only button has no name, no popup/expanded state, and the menu is a plain list.',
@@ -171,7 +171,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'forms-inline',
     path: '/forms/inline-validation',
-    title: 'Inline validation',
+    title: 'Inline validation (3.3.1, 1.4.1, 3.3.3, 1.3.1)',
     category: 'forms',
     description: 'An email field is validated when it loses focus.',
     flaw: 'Errors are shown only by a red border and unassociated text; no aria-invalid.',
@@ -189,7 +189,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'forms-summary',
     path: '/forms/error-summary',
-    title: 'Error summary on submit',
+    title: 'Error summary on submit (3.3.1, 2.4.3, 4.1.3)',
     category: 'forms',
     description: 'Submitting an empty form reports every error.',
     flaw: 'Errors render silently next to fields; focus stays on the submit button.',
@@ -201,7 +201,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'forms-labels',
     path: '/forms/labels',
-    title: 'Labels, hints and required fields',
+    title: 'Labels, hints and required fields (1.3.1, 3.3.2, 4.1.2)',
     category: 'forms',
     description: 'A short form with a required field and a hint.',
     flaw: 'Label text is not associated with inputs and "required" is only an asterisk.',
@@ -213,7 +213,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'forms-success',
     path: '/forms/success',
-    title: 'Submission confirmation',
+    title: 'Submission confirmation (4.1.3, 2.4.3, 3.2.2)',
     category: 'forms',
     description: 'Submitting feedback shows a confirmation message.',
     flaw: 'The form is silently replaced by a message and keyboard focus is lost.',
@@ -231,7 +231,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'dynamic-combobox',
     path: '/dynamic/combobox',
-    title: 'Autocomplete combobox',
+    title: 'Autocomplete combobox (2.1.1)',
     category: 'dynamic',
     description: 'Typing in a fruit field filters a list of suggestions.',
     flaw: 'Input has no combobox semantics; options are not in a listbox and the result count is silent.',
@@ -243,7 +243,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'dynamic-load-more',
     path: '/dynamic/load-more',
-    title: 'Load more',
+    title: 'Load more (4.1.3, 2.4.3, 1.1.3)',
     category: 'dynamic',
     description: 'A button appends more articles to a list.',
     flaw: 'Items are appended silently and focus is lost when the button disappears.',
@@ -258,7 +258,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'dynamic-sort-table',
     path: '/dynamic/sortable-table',
-    title: 'Sortable table',
+    title: 'Sortable table (4.1.2, 1.3.1)',
     category: 'dynamic',
     description: 'Column headers sort a table of employees.',
     flaw: 'Headers are clickable cells with no button, no aria-sort, and no caption.',
@@ -270,7 +270,7 @@ export const SCENARIOS: ScenarioMeta[] = [
   {
     id: 'dynamic-inject',
     path: '/dynamic/delayed-content',
-    title: 'Delayed content injection',
+    title: 'Delayed content injection (4.1.3, 1.3.1, 2.4.6)',
     category: 'dynamic',
     description: 'Recommendations load in automatically a moment after the page opens.',
     flaw: 'Content appears with no announcement, and its heading is styled text rather than a heading.',
